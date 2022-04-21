@@ -1,8 +1,8 @@
 # Maintainer: Fernando Canteruccio <fernando@megali.co.uk>
 
-pkgname=supabase
+pkgname=supabase-cli
 _pkgname=supabase
-pkgver=v0.18.1
+pkgver=v0.24.8
 pkgrel=1
 pkgdesc='Supabase CLI'
 arch=(x86_64 i686)
@@ -13,10 +13,6 @@ provides=(supabase)
 conflicts=(supabase)
 source=("git+$url")
 sha256sums=('SKIP')
-
-pkgver() {
-  printf v0.18.1
-}
 
 build() {
   cd cli
