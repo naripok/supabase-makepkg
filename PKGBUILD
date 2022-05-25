@@ -2,7 +2,7 @@
 
 pkgname=supabase-cli
 _pkgname=supabase
-pkgver=v0.24.8
+pkgver=v0.26.0
 pkgrel=1
 pkgdesc='Supabase CLI'
 arch=(x86_64 i686)
